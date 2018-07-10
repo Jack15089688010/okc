@@ -1,0 +1,180 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+<meta name="viewport" content="width=device-width,initial-scale=1.0" >
+<link   href="bootstrap-4.0.0-dist/css/bootstrap.css"   rel="stylesheet">
+<link   href="bootstrap/css/bootstrap-responsive.min.css"  rel="stylesheet">
+<!--[if lt IE 9]>
+      <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<style>
+#bgphoto{ color:#FFF;        
+   
+	background:url(bootstrap-4.0.0-dist/img/1782916.jpg);
+	background-size:cover
+	
+}
+</style>
+
+<body>
+<script   src="bootstrap-4.0.0-dist/js/jquery-3.2.1.min.js"></script>
+<script   src="bootstrap-4.0.0-dist/js/bootstrap.js"></script>
+<script    src="bootstrap-4.0.0-dist/js/tether.min.js"></script>
+
+                  <!--nav导航模块-->
+     <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+        <a href="#" class="navbar-brand">
+            <img class="rounded-circle" src="bootstrap-4.0.0-dist/img/2008328113946615.jpg" width="35" height="35"  >
+            Oklahoma
+        </a>
+         <button class="navbar-toggler"  data-toggle="collapse" data-target="#collapsible"> <!--toggler隐藏意思-->
+              <span class="navbar-toggler-icon"></span>
+         </button>
+         <div class="collapse navbar-collapse" id="collapsible"><!--collapse折叠意思 id="collapsible"与上面button对应-->
+            <ul class="navbar-nav"> <!--导航里面的文字-->
+            
+            
+                 <li class="nav-item dropdown">
+                  <a  href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">我爱</a><!--data-toggle与上面的dropdown对应-->
+                     <div class="dropdown-menu" >
+                     <a class="dropdown-item">我爱</a>
+                     <a class="dropdown-item">我爱</a>
+                     <a class="dropdown-item">我爱</a>
+                     </div>
+                 </li>
+                 
+                 
+                 <li class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">学习</a><!--的dropdown-toggle下三角-->
+                      <div class="dropdown-menu">
+                       <a class="dropdown-item">学生</a>
+                       <a class="dropdown-item">学生</a>
+                       <a class="dropdown-item">学生</a>
+                      </div>
+                 </li>
+               
+               
+                   <li class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">快乐</a>
+                       <div class="dropdown-menu">
+                        <a class="dropdown-item">快乐</a>
+                        <a class="dropdown-item">快乐</a>
+                        <a class="dropdown-item">快乐</a>
+                       </div>
+                   </li>
+                  
+                  
+                    <li class="nav-item">
+                      <a href="DianWoHa.html" class="nav-link">点我哈</a>
+                    </li>
+                   
+            </ul>
+          </div>
+       </nav>
+       
+         
+   
+   
+ <!-- <div> 元素是块级元素，它是可用于组合其他 HTML 元素的容器。-->   
+  <!-- <span> 元素是内联元素，可用作文本的容器。<span> 元素也没有特定的含义。。--> 
+       
+<div class="container"  > <!--居中-->  
+  <br>
+  <br>
+  <br>   
+      <!-- 模块-->
+     <div class="row"> <!-- 水平-->
+     
+                    <!-- 左边模块-->
+     <!--    <div class="border col-2 hidden-phone " >-->
+               <div class="jumbotron col-2 hidden-phone"><!--大屏幕-->
+                  <img  alt="spiderMan"  height="120" width="120" src="bootstrap-4.0.0-dist/img/2008328113946615.jpg">
+                    <hr class="my-4">
+                    <p class="text-center">spiderMan</p><!--text-center居中-->
+                    <span class="badge badge-danger">漫威</span><!--badge徽章-->
+                    <span class="badge badge-info">小蜘蛛</span><br>
+                    <span class="badge badge-dark">正义</span>
+               </div>
+          <!-- </div>-->
+
+
+
+                     <!-- 中间边模块 上下块用card卡片实现-->
+               <div class="col">
+                    <div class="card text-center bg-dark mb-3" >
+                         <div class="card-body"  style="color:#FFF">
+                            <p>最喜欢的漫威英雄</p>
+                          <footer>SpiderMan <cite>(蜘蛛侠)</cite></footer>
+                          </div> 
+                     </div>     
+                     
+                     <div class="card text-center mb-3" >
+                          <div class="card-body" id="bgphoto">
+                          
+                              <p>超凡蜘蛛侠</p>
+                              <footer><cite>《超凡蜘蛛侠》</cite>改编自漫威超级英雄漫画</footer>
+                              <footer>影片于2012年7月3日在北美上映</footer>
+                              <footer><cite>《超凡蜘蛛侠》</cite>不同于此前山姆·雷米执导的<cite>《蜘蛛侠》
+                               </cite>三部曲</footer>
+                              <footer>此部将视角拉回到彼得·帕克的高中时代，</footer>
+                              <footer>年轻的他一方面要同自己的初恋格温共同经历爱情承诺的考验，</footer>
+                              <footer>另一方面还要揭开双亲神秘失踪的真相，</footer>
+                              <footer>在人生最大的挑战中完成从常人到英雄的命运转变。</footer>
+                          
+                          </div>
+                     </div>             
+               </div>
+
+
+
+      
+                               <!-- 右边模块 上下块用card卡片实现-->
+                     <div class="col-3 hidden-phone">
+                            <div class="list-group">
+                               <a class="list-group-item active bg-dark" href="#">TOP点击</a>
+                               <a class="list-group-item">hello</a>                          
+                            </div>
+                    
+                    
+                           <hr> 
+                     
+                            <div class="list-group">
+                               <div class="list-group-item active bg-dark"><!--Flex布局（伸缩布局盒模型）-->
+                                   <div class=" d-flex w-100 justify-content-between ">
+                                    <h5 class="mb-1">最新评论</h5>
+                                    <small>三天前</small>
+                                   </div>
+                               </div>  
+                               <div class="list-group-item"><!--内容对齐（justify-content）属性应用在弹性容器上-->
+                                    <div class="d-flex w-100 justify-content-between">
+                                     <h5 class="mb-1">还没有评论</h5>
+                                     <small>3 days ago</small>
+                                    </div>
+                                    
+                                    <p class="mb-1">you are my hero！</p>
+                                    <small class="text-muted">ThunderUp!</small>
+                                   
+                               </div> 
+                                                  
+                            </div>
+                     </div>
+                     
+                     
+                     
+     </div>
+     
+     
+
+
+</div>
+                        <div class=" fixed-bottom">
+                  <div class=" d-flex  justify-content-center">
+                        <small class="text-muted">907560770@qq.com</small>
+                  </div>
+           </div>
+</body>
+</html>
